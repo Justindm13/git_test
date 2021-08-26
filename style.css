@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: .9em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navImages {
+ vertical-align: middle;
+ width: 40px;
+ margin: 5px;
+}
+
+.navImages:hover{
+    border-radius: 100%;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.header-nav{   
+    align-items: center; 
+    padding-left: 0px;
+}
+
+.myInputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid 1px gainsboro;
+    border-radius: 20px;
+    width: 600px;
+    height: 44px;
+    margin-top: 35px;
+}
+
+.mySectionContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.myInputContainer:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 30px;
+    width: 600px;
+}
+
+.myInputContainer>img{
+    width: 30px;
+}
+
+.myInputContainer>img:hover{
+    cursor: pointer;
+}
+
+.myButtonContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+}
+
+button{
+    margin: 7px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+button:hover{
+    box-shadow: 0px 1px 0 1px gainsboro;
+}
+
+.searchInputField{
+    border: none;
+    width: 500px;
+    outline: none;
+}
+
+.googleImage{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.googleImage:hover{
+    cursor: pointer;
+}
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom:  0px;
+    background-color: #f2f2f2;
+    height: 48px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 14px;
+    color: #919191;
+}
+
+.carbonFooter{
+    display: flex;
+    margin: 0;
+    padding-right: 150px;
+    align-items: center;
+}
+
+footer>nav>ul>a{
+    color: #919191;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    align-items: center;
+}
+.carbonFooter>img{
+    width: 25px;
+}
+
+ul>a, ul>img {
+    padding: 4px 4px;
+}
+ul{
+    padding: 0;
+}
